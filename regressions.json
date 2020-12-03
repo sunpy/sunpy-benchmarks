@@ -1,1 +1,1 @@
-{"regressions": []}
+{"regressions": [["benchmarks_for_map.TimeSuite.time_create_sunpy_map", "graphs/arch-x86_64/branch-asv-start/cpu-Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz/extension-helpers/machine-kate-laptop/num_cpu-8/numpy/os-Linux 5.4.0-39-generic/python-3.8/ram-7915644/six/benchmarks_for_map.TimeSuite.time_create_sunpy_map.json", {"branch": "asv-start"}, null, 0.0691682979959296, 0.055682076497760136, [[15850, 16140, 0.055682076497760136, 0.0691682979959296]]]]}
