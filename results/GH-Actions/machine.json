@@ -1,8 +1,8 @@
 {
     "arch": "x64",
-    "cpu": "unknown",
+    "cpu": "2-core unknown",
     "machine": "GH-Actions",
     "os": "ubuntu-18.04",
-    "ram": "unknown",
+    "ram": "7GB",
     "version": 1
 }
