@@ -56,7 +56,7 @@
         "version": "fee37bb329b49e081ab12c99259e13cf12bf33b5c2656b032b2a36f06f863f13"
     },
     "benchmarks_for_parse_time.TimeSuite.time_parse_time": {
-        "code": "class TimeSuite:\n    def time_parse_time(self):\n       t = parse_time('1995-12-31 23:59:60')\n       t1 = t5 = parse_time((2001, 1, 1, 12, 12, 12, 8899))",
+        "code": "class TimeSuite:\n    def time_parse_time(self):\n       t = parse_time('1995-12-31 23:59:60')",
         "min_run_count": 2,
         "name": "benchmarks_for_parse_time.TimeSuite.time_parse_time",
         "number": 0,
@@ -68,7 +68,7 @@
         "timeout": 60.0,
         "type": "time",
         "unit": "seconds",
-        "version": "952b9129c3c3e7e84ecf1f80ecbb91304a8ce2434b5b1c598bb37675b5e1dfd7",
+        "version": "2a8028b3ce3b0a8e4c3c337d4efff2fec201da182f6b1a73e768a887ccb5d448",
         "warmup_time": -1
     },
     "version": 2
