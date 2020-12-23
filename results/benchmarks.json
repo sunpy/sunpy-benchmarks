@@ -10,17 +10,17 @@
         "version": "7272ac9cf132fb3573d03c8989af73f1c93ef11900033b09b4e7dbe9008cb24e"
     },
     "benchmarks_for_map.PeakMemorySuite.peakmem_sunpy_map": {
-        "code": "class PeakMemorySuite:\n    def peakmem_sunpy_map(self):\n        aia_map = sunpy.map.Map(self._map)\n\n    def setup(self):\n        self._map = sunpy.data.sample.AIA_171_IMAGE",
+        "code": "class PeakMemorySuite:\n    def peakmem_sunpy_map(self):\n        sunpy.map.Map(self._map)\n\n    def setup(self):\n        self._map = sunpy.data.sample.AIA_171_IMAGE",
         "name": "benchmarks_for_map.PeakMemorySuite.peakmem_sunpy_map",
         "param_names": [],
         "params": [],
         "timeout": 60.0,
         "type": "peakmemory",
         "unit": "bytes",
-        "version": "b1ed06c6e3388c468e72ba37dae3fc8e5ab830156c0ca83f2ff78345c5438478"
+        "version": "7a35d99934b8d8e2e8208da2e23016245d2a837bf879d3c865a5af5ceefd41da"
     },
     "benchmarks_for_map.TimeSuite.time_create_sunpy_map": {
-        "code": "class TimeSuite:\n    def time_create_sunpy_map(self):\n        aia_map = sunpy.map.Map(self._map)\n\n    def setup(self):\n        self._map = sunpy.data.sample.AIA_171_IMAGE",
+        "code": "class TimeSuite:\n    def time_create_sunpy_map(self):\n        sunpy.map.Map(self._map)\n\n    def setup(self):\n        self._map = sunpy.data.sample.AIA_171_IMAGE",
         "min_run_count": 2,
         "name": "benchmarks_for_map.TimeSuite.time_create_sunpy_map",
         "number": 0,
@@ -32,7 +32,7 @@
         "timeout": 60.0,
         "type": "time",
         "unit": "seconds",
-        "version": "6d2cfcbfd10e0795dfa21819db91dfac8fbe50d9e3a4c342d29a7badace16650",
+        "version": "0c92e5926188d0d99841ffd7b07367590b9e6baa202f84371a3161418f1223f4",
         "warmup_time": -1
     },
     "benchmarks_for_parse_time.MemSuite.mem_parse_time": {
