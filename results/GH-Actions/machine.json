@@ -2,7 +2,7 @@
     "arch": "x64",
     "cpu": "2-core unknown",
     "machine": "GH-Actions",
-    "os": "ubuntu-18.04",
+    "os": "ubuntu-20.04",
     "ram": "7GB",
     "version": 1
 }
