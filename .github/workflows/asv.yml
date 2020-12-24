@@ -28,8 +28,8 @@ jobs:
           
       - name: Git config
         run : | 
-          git config user.email "you@example.com"
-          git config user.name "CI"          
+          git config --global user.email "you@example.com"
+          git config --global user.name "CI"          
       
       - name: Publish results
         run : asv gh-pages
