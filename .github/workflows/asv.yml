@@ -29,7 +29,10 @@ jobs:
       - name: Git config
         run : | 
           git config --global user.email "you@example.com"
-          git config --global user.name "CI"          
+          git config --global user.name "CI"
+          
+      - name: Pull new commits from sunpy-benchmarks repo
+        run : git pull
       
       - name: Publish results
         run : asv gh-pages
