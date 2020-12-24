@@ -40,6 +40,7 @@ jobs:
         run : |
           git checkout gh-pages
           git pull
+          git checkout main
       
       - name: Publish results
         run : asv gh-pages
