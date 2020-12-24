@@ -26,5 +26,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install asv virtualenv
           
+      - name: Git config
+        run : | 
+          git config user.email "you@example.com"
+          git config user.name "CI"          
+      
       - name: Publish results
         run : asv gh-pages
