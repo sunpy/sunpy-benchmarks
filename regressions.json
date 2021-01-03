@@ -1,1 +1,1 @@
-{"regressions": [["benchmarks_for_parse_time.TimeSuite.time_parse_time", "graphs/arch-x64/branch-master/cpu-2-core unknown/extension-helpers/machine-GH-Actions/matplotlib/num_cpu-null/numpy/os-ubuntu-20.04/python-3.8/ram-7GB/scipy/six-null/benchmarks_for_parse_time.TimeSuite.time_parse_time.json", {"arch": "x64", "cpu": "2-core unknown", "machine": "GH-Actions", "os": "ubuntu-20.04", "ram": "7GB", "python": "3.8"}, null, 0.000880369076926312, 0.0006542581562491989, [[23724, 23746, 0.0006542581562491989, 0.000880369076926312]]]]}
+{"regressions": []}
