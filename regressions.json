@@ -1,1 +1,1 @@
-{"regressions": [["benchmarks_for_map.TimeSuite.time_create_sunpy_map", "graphs/arch-x64/branch-master/cpu-2-core unknown/extension-helpers/machine-GH-Actions/matplotlib/num_cpu-null/numpy/os-ubuntu-20.04/python-3.8/ram-7GB/scipy/six-null/benchmarks_for_map.TimeSuite.time_create_sunpy_map.json", {"arch": "x64", "cpu": "2-core unknown", "machine": "GH-Actions", "os": "ubuntu-20.04", "ram": "7GB", "python": "3.8"}, null, 0.09024845950011695, 0.06130599200002962, [[23988, 24211, 0.06130599200002962, 0.09024845950011695]]]]}
+{"regressions": []}
