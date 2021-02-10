@@ -10,7 +10,7 @@
         "version": "ed040a79d46be1813f7638923fcf0cf1f57e61d18afa01155caa2476dbe2b94a"
     },
     "benchmarks_for_is_time.TimeSuite.time_is_time": {
-        "code": "class TimeSuite:\n    def time_is_time(self):\n        t = is_time('1995-11-31 23:59:60')",
+        "code": "class TimeSuite:\n    def time_is_time(self):\n        t = is_time('1995-12-31 23:59:60')",
         "min_run_count": 2,
         "name": "benchmarks_for_is_time.TimeSuite.time_is_time",
         "number": 0,
@@ -22,7 +22,7 @@
         "timeout": 60.0,
         "type": "time",
         "unit": "seconds",
-        "version": "e323569d0f638062ebf5d230c49bb692e32663195ade141b1c6114a6f8afc671",
+        "version": "9c1a973fb7bfebca68e3598e486eb276cee2af35590bed3ff38975e8b0d9c111",
         "warmup_time": -1
     },
     "benchmarks_for_map.MemSuite.mem_sunpy_map": {
