@@ -97,5 +97,31 @@
         "version": "2187021e3f05e9d6dc4719584d5969efd806623fe0e687812834774b93c5a737",
         "warmup_time": -1
     },
+    "benchmarks_for_resample.PeakMemorySuite.peakmem_resample": {
+        "code": "class PeakMemorySuite:\n    def peakmem_resample(self):\n        self._map.resample([100, 100] * u.pix)\n\n    def setup(self):\n        self._map = sunpy.map.Map(sunpy.data.sample.AIA_171_IMAGE)",
+        "name": "benchmarks_for_resample.PeakMemorySuite.peakmem_resample",
+        "param_names": [],
+        "params": [],
+        "timeout": 60.0,
+        "type": "peakmemory",
+        "unit": "bytes",
+        "version": "db50533d2cd12b82bfd889e01f936a7b1d0b33f5eaf6ef11afd1118c56290b42"
+    },
+    "benchmarks_for_resample.TimeSuite.time_resample": {
+        "code": "class TimeSuite:\n    def time_resample(self):\n        self._map.resample([100, 100] * u.pix)\n\n    def setup(self):\n        self._map = sunpy.map.Map(sunpy.data.sample.AIA_171_IMAGE)",
+        "min_run_count": 2,
+        "name": "benchmarks_for_resample.TimeSuite.time_resample",
+        "number": 0,
+        "param_names": [],
+        "params": [],
+        "processes": 2,
+        "repeat": 0,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "2f282db6107c20f34a1d77f12fad798a2e31e4df2e459d5ab05242e264f11aa4",
+        "warmup_time": -1
+    },
     "version": 2
 }
