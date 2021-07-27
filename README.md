@@ -1,6 +1,5 @@
 # sunpy-benchmarks
 
-Status of Last Deployment:<br>
-<img src="https://github.com/sunpy/sunpy-benchmarks/workflows/asv-gh-pages/badge.svg?branch=main"><br>
+[![Deploy to Github Pages](https://github.com/sunpy/sunpy-benchmarks/actions/workflows/asv.yml/badge.svg)](https://github.com/sunpy/sunpy-benchmarks/actions/workflows/asv.yml)
 
 Results of benchmarks for the sunpy core package.
